@@ -1,5 +1,30 @@
 header {
   background-color: black;
-  width: 100px; }
+  height: 100px;
+  width: auto; }
+
+section:nth-of-type(1) {
+  background-image: url("../images/limsa.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+section:nth-of-type(2) {
+  background-image: url("../images/gridania.jpg");
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+section:nth-of-type(3) {
+  background-image: url("../images/uldah.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 /*# sourceMappingURL=index.css.map */
