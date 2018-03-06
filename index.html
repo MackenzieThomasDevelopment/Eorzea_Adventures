@@ -1,49 +1,163 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Eorzea Adventures</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
-<link rel="stylesheet" href="css/index.css">
-    
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Eorzea Adventures</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <link media="all" type="text/css" rel="stylesheet" href="/css/main.css">
+    </head>
 
-</head>
     <body>
-        
-        <header>
-            
-        </header>
-        
-        <div>
-            <h1>#ADVENTURELIFE</h1>
-            <h5>Follow us for updates</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu accumsan felis. Aenean non molestie velit, eu feugiat nisl. Integer laoreet ex at lectus vestibulum semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    <div class="container-fluid">
+        <div class="row" id="hero">
+            <div class="col-12">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">Eorzea Adventures</a>
+           
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">Products</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Product 1</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Product 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Product 3</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Product 4</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+                    <h1>Go Bravely,</h1>
+                    <h1>Venture Forth</h1>
+                      <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 video-link medium-paragraph">
+                        <a href="#" class="launch-modal" data-modal-id="modal-video">
+                            <span class="video-link-icon"><i class="fa fa-play"></i></span> 
+                            <span class="video-link-text">Launch modal video</span>
+                        </a>
+                    </div>
+                    <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-video">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe id="video-frame" class="embed-responsive-item" src="https://player.vimeo.com/video/84910153?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=e89a3e"
+                                    webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-
-            <img>
-            <img> <!-- add in images later-->
-            <img>
+                </div>
+                </div>
+            </div>
             
+            <div class="row text-center">
+                <div class="col -12">
+                    <h1>Smash Your Comfort Zone</h1>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.</p>
+                    
+                </div>
+            </div>
+            
+             <div class="row" id="social">
+                <div class="col-5 ml-4">
+                   <h1>#EORZEALIFE</h1>
+                    <h6>FOLLOW US FOR UPDATES</h6>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.</p>
+                </div>
+                <div class="col-6">
+                    <img src="images/sm-1.jpg">
+                    <img src="images/sm-2.jpg">
+                    <img src="images/sm-3.jpg">
+                 </div>
+            </div>
+            
+            <div class="row text-center">
+                <div class="col-12"><h1>POPULAR EORZEA ADVENTURES</h1></div>
+                <div class="col-12" id="adv1">
+                    <h1>Explore Ul'Dah</h1>
+                    <h6>A brief description of the adventure</h6>
+                    <button type="button" class="btn btn-light">Light</button>
+                </div>
+                
+                <div class="col-12" id="adv2">
+                    <h1>Explore Limsa Lominsa</h1>
+                    <h6>A brief description of the adventure</h6>
+                    <button type="button" class="btn btn-light">Light</button>
+                </div>
+                
+                <div class="col-12" id="adv3">
+                    <h1>Explore Gridania</h1>
+                    <h6>A brief description of the adventure</h6>
+                    <button type="button" class="btn btn-light">Light</button>
+                </div>
+            </div>
+        
+               <div class="row text-center" id="bookings">
+                <div class="col-6">
+
+                </div>
+
+                <div class="col-6">
+                    <h1></h1>
+                    <p></p>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <button type="button" class="btn btn-dark">Light</button>
+                </div>
+        
+            </div>
+            <div class="row text-center" id="contact">
+                <div class="col-12">
+                    <h1></h1>
+                    <h6></h6>
+                    <input> <button type="button" class="btn btn-light">Light</button>
+                    <h6></h6>
+                </div>
+            </div>
+            <div class="row text-center" id="footer">
+                <div class="col-12">
+                    
+                </div>
+            </div>
         </div>
-
-        <section>
-            
-        </section>
-        
-        <section>
-            
-        </section>
-        
-        <section>
-            
-        </section>
+     
         
         
-
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+       
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script src="/js/script.js"></script>
     </body>
 </html>
